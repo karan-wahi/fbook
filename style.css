@@ -1,0 +1,101 @@
+*{
+	outline: 0;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+}
+div.container {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #ECEFF5;
+	min-height: 350px;
+}
+
+div.header {
+	background-color: #3B5998;
+	overflow: hidden;
+	height: 30px;
+}
+
+div.header div.left{
+	float: left;
+}
+
+div.header div.left img{
+padding: 5px;
+}
+
+div.header div.right{
+	float: right;
+}
+
+div.header div.right a {
+	background-color: #69A74E;
+	color: #fff;
+	border: 1px solid #4476e8;
+	padding: 6px 8px;
+	text-decoration: none;
+	border-radius: 2px;
+	height: 26px;
+	display: inline-block;
+	font-size: 12px;
+}
+
+div.form-control {
+	overflow: hidden;
+	padding: 4px;
+}
+
+div.form-control label {
+	color: #8d949e;
+	display: block;
+	font-weight: bold;
+}
+
+div.form-control input {
+	padding: 8px 12px;
+	color: #1c1e21;
+	border: solid 1px #999;
+	width: 95%;
+
+}
+
+div.form button[type="submit"] {
+	background-color: #465e91;
+	padding: 0 19px;
+	display: block;
+	width: 99.5%;
+	color: #fff;
+	border: 1px solid #365899;
+	height: 44px;
+}
+
+.form {
+	padding: 8px;
+}
+
+.new-acc-btn {
+	color: #fff;
+	background-color: #42B72A;
+	padding: 10px 19px;
+	border: 1px solid #bec3c9;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0 auto;
+	display: table;
+}
+
+
+.forgot-btn {
+	text-decoration: none;
+	color: #465E91;
+	padding: 12px;
+	display: block;
+	margin-top: 30px;
+}
+
+.forgot-btn:hover{
+	text-decoration: underline;
+}
